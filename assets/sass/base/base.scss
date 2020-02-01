@@ -1,0 +1,57 @@
+body {
+    width: 100vw;
+}
+
+main {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/post-image.jpg");
+
+    height: 1000px;
+}
+
+/* Base Typography*/
+h6 {
+    font-family: $roboto;
+    font-weight: $black;
+}
+
+
+h5 {
+    font-family: $roboto;
+    font-weight: $black;
+
+}
+
+h4 {
+    font-family: $roboto;
+    font-weight: $black;
+    color: $spanishpink;
+    display: line;
+
+}
+
+h3 {
+    font-family: $roboto;
+    font-weight: $light;
+
+}
+
+h2 {
+    font-family: $playfair;
+    font-style: italic;
+    font-size: $x-large;
+    display: line;
+
+}
+
+h1 {
+    font-family: $playfair;
+    font-style: italic;
+    font-weight: 900;
+    font-size: $xx-large;
+    color: $white;
+    padding: 25%;
+}
