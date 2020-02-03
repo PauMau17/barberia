@@ -6474,30 +6474,6 @@ main {
   height: 1000px; }
 
 /* Base Typography*/
-h6 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400; }
-
-h5 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400; }
-
-h4 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  color: #ecbcba;
-  display: line; }
-
-h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300; }
-
-h2 {
-  font-family: "Playfair Display", italic;
-  font-style: italic;
-  font-size: 30px;
-  display: line; }
-
 h1 {
   font-family: "Playfair Display", italic;
   font-style: italic;
@@ -6505,6 +6481,32 @@ h1 {
   font-size: 70px;
   color: #fff;
   padding: 25%; }
+
+h2 {
+  font-family: "Playfair Display", italic;
+  font-style: italic;
+  font-size: 30px;
+  display: line; }
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ecbcba;
+  display: line; }
+
+h5 {
+  font-family: "Playfair Display", italic;
+  font-weight: 400;
+  color: #6c6e70;
+  padding-bottom: 2rem; }
+
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
 
 body {
   margin: 0;
@@ -6515,47 +6517,101 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 nav li {
+  /*elementos navbar*/
   text-decoration: none;
   color: white; }
 
-.blog {
-  color: #e56353; }
+.blg {
+  color: #e56353 !important; }
 
-.section-naomi {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  background-color: #fff;
-  border: 1px solid #d1d1d1; }
+p {
+  /*parrafos blog y descripcion bloguera*/
+  color: #6c6e70;
+  text-align: justify;
+  line-height: 2rem;
+  font-size: 16px; }
 
-.section-naomi__bloguera {
-  padding: 2rem;
-  margin-left: 2rem;
-  display: inline-block; }
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: #d1d1d1; }
 
+.bg-dark {
+  background-color: #121619 !important; }
+
+#navbarNav {
+  margin-left: 25rem; }
+
+nav img {
+  margin-left: 5rem;
+  width: 5rem; }
+
+nav a {
+  color: #fff;
+  list-style: none;
+  text-decoration: none; }
+
+@media only screen and (max-width: 400px) {
+  #navbarNav {
+    margin-left: 15rem; }
+
+  nav img {
+    margin-left: 2rem;
+    width: 5rem; } }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+  .naomi {
+    /*foto naomi-blog*/
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem; } }
 .naomi {
   /*foto naomi-blog*/
   border-radius: 50%;
-  float: left;
   margin-left: 1rem;
   margin-right: 1rem; }
 
-ul {
-  width: 100vw;
-  display: inline-block; }
+.navigation {
+  background-color: #e6e7e7; }
 
 ul li {
   display: inline-block;
-  list-style: none; }
+  list-style: none;
+  margin: 0;
+  color: #6c6e70; }
 
-footer {
-  width: 100vw;
+@media only screen and (min-width: 400px) {
+  footer {
+    background-color: #121619;
+    text-align: center; }
+
+  footer img {
+    width: 6rem; } }
+.btn-lg, .btn-group-lg > .btn {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px; }
+
+#roundL {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px; }
+
+#roundR {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: #222323; }
+
+.page-link {
+  color: #6c6e70; }
+
+#flecha {
   position: absolute;
-  display: inline-block;
-  background-color: #121619;
-  text-align: center; }
-
-body {
-  background-color: #d1d1d1; }
+  bottom: -20rem;
+  left: 32rem;
+  color: #fff; }
 
 h1 {
   font-size: 70px; }

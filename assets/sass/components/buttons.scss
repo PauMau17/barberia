@@ -1,0 +1,30 @@
+.btn-lg {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#roundL {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#roundR {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: $raisinblack;
+}
+
+.page-link {
+    color: $nickel;
+}
+
+#flecha {
+    position: absolute;
+    bottom: -20rem;
+    left: 32rem;
+    color: $white;
+}

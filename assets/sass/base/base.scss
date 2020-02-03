@@ -8,20 +8,31 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("../img/post-image.jpg");
-
     height: 1000px;
 }
 
 /* Base Typography*/
-h6 {
-    font-family: $roboto;
-    font-weight: $black;
+
+h1 {
+    font-family: $playfair;
+    font-style: italic;
+    font-weight: 900;
+    font-size: $xx-large;
+    color: $white;
+    padding: 25%;
 }
 
+h2 {
+    font-family: $playfair;
+    font-style: italic;
+    font-size: $x-large;
+    display: line;
 
-h5 {
+}
+
+h3 {
     font-family: $roboto;
-    font-weight: $black;
+    font-weight: $light;
 
 }
 
@@ -33,25 +44,15 @@ h4 {
 
 }
 
-h3 {
+h5 {
+    font-family: $playfair;
+    font-weight: $black;
+    color: $nickel;
+    padding-bottom: 2rem;
+
+}
+
+h6 {
     font-family: $roboto;
-    font-weight: $light;
-
-}
-
-h2 {
-    font-family: $playfair;
-    font-style: italic;
-    font-size: $x-large;
-    display: line;
-
-}
-
-h1 {
-    font-family: $playfair;
-    font-style: italic;
-    font-weight: 900;
-    font-size: $xx-large;
-    color: $white;
-    padding: 25%;
+    font-weight: $black;
 }

@@ -4,10 +4,26 @@ body {
 
 
 nav li {
+    /*elementos navbar*/
     text-decoration: none;
     color: white;
 }
 
-.blog {
-    color: $fuzzyguzzy;
+.blg {
+    color: $fuzzyguzzy !important;
+}
+
+p {
+    /*parrafos blog y descripcion bloguera*/
+    color: $nickel;
+    text-align: justify;
+    line-height: 2rem;
+    font-size: $medium;
+
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    background-color: $lightgray;
 }
